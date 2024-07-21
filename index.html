@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="Stylesheet" href="style.css">
+    <title>Mario Bros</title>
+
+</head>
+
+<body>
+
+    <div onclick="esconderForm()" class="mascara-formulario"></div>
+
+    <div class="header">
+        <img src="./img/logo-header.png" alt="logo-header" class="logo-mario">
+        <a>Home</a>
+        <a href="">Ours Services</a>
+        <a href="">Call Us</a>
+
+    </div>
+
+    <div class="caixa-mae">
+        <div class="caixa-principal">
+            <img src="./img/logo (1).png" alt="Logo imagem" class="logo-mario">
+            <p class="titulo">Plumbers Mario and Luid solve your problems!</p>
+            <p class="texto">If you have encountered any problems with plumbing or the like,
+                then you are in the right place, get in touch and this will be resolved</p>
+            <button onclick="mostrarForm()">Contact us</button>
+        </div>
+
+        <div>
+            <img src="./img/mario (1).png" class="Mario-e-luigi">
+        </div>
+
+    </div>
+
+    <div class="caixa-video">
+        <video src="./img/video.mp4" autoplay muted loop></video>
+        <div class="mascara"></div>
+    </div>
+    <a href="">
+        <img src="./img/whatsapp (1).png" alt="link para Whatsapp" class="icone-whatsapp">
+    </a>
+
+    <form 
+        class="formulário-orçamento" 
+        action="https://formcarry.com/s/odT-c4PWMQc" 
+        method="POST"
+        enctype="multipart/form-data">
+        <input placeholder="Digite seu nome" type="text" name="nome">
+        <input placeholder="Sue telefone" type="tel" name="telefone">
+        <textarea placeholder="Informe seu problema aqui..." name="duvidas"></textarea>
+        <button type="submit">Ask for budget</button>
+    </form>
+
+</body>
+
+<script src="./script.js"></script>
+
+</html>
